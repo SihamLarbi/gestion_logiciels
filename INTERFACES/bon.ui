@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>739</width>
+    <height>684</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(218, 218, 218);</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <item>
+    <widget class="QWidget" name="widget_2" native="true">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);
+border:none;</string>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_5">
+      <item>
+       <widget class="QLabel" name="label_13">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>643</width>
+          <height>17</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QPushButton" name="apercu_btn">
+        <property name="maximumSize">
+         <size>
+          <width>40</width>
+          <height>40</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+border:none;}
+
+QPushButton:hover{
+
+	background-color: rgb(189, 191, 228);
+
+}
+QPushButton:pressed{
+border-radius:10px;
+	background-color: rgb(163, 221, 61);
+
+}
+
+
+
+</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>../IMAGES/icones/document.png</normaloff>../IMAGES/icones/document.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>40</width>
+          <height>40</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QWidget" name="widget_bon" native="true">
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;Arial&quot;;
+background-color: rgb(255, 255, 255);
+border:none;</string>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_6">
+      <property name="leftMargin">
+       <number>50</number>
+      </property>
+      <property name="rightMargin">
+       <number>50</number>
+      </property>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_3">
+        <property name="spacing">
+         <number>18</number>
+        </property>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_2">
+          <item>
+           <widget class="QLabel" name="label_9">
+            <property name="text">
+             <string>N° Bon :</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QLabel" name="label">
+          <property name="text">
+           <string>Nom :</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_3">
+          <property name="text">
+           <string>Prénom :</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_2">
+          <property name="text">
+           <string>Nombre sacs :</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_4">
+          <property name="text">
+           <string>Nombre bidons :</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_5">
+          <property name="text">
+           <string>Service choisi :</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_6">
+          <property name="text">
+           <string>Qte_olive(kg) :</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_12">
+          <property name="text">
+           <string>Qte_huile( l) :</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_7">
+          <property name="text">
+           <string>Méthode de paiment :</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_8">
+          <property name="text">
+           <string>Total à payer : </string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_3">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <property name="spacing">
+         <number>18</number>
+        </property>
+        <item>
+         <widget class="QLineEdit" name="le1">
+          <property name="styleSheet">
+           <string notr="true">border:none;</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="le2"/>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="le3"/>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="le4"/>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="le5"/>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="le6"/>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="le7"/>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="le8">
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="le9"/>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="le10"/>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QWidget" name="widget" native="true">
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>90</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+QWidget{
+
+background-color: rgb(255, 255, 255);}
+QLineEdit{
+height:25px;
+font: 63 10pt &quot;Bahnschrift SemiBold&quot;;
+border-bottom:2px solid #ac7e74;
+background-color: rgb(226, 231, 215);
+
+}
+
+
+
+</string>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_4">
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_4">
+        <item>
+         <widget class="QLineEdit" name="lineEdit">
+          <property name="placeholderText">
+           <string>Quantité olive(Kg)</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEdit_2">
+          <property name="placeholderText">
+           <string>Quantité huile(l)</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <property name="leftMargin">
+         <number>100</number>
+        </property>
+        <property name="rightMargin">
+         <number>30</number>
+        </property>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_6">
+          <item>
+           <widget class="QLabel" name="label_11">
+            <property name="styleSheet">
+             <string notr="true">font: 63 11pt &quot;Bahnschrift SemiBold&quot;;
+background-color: rgb(255, 255, 255);
+border:none;</string>
+            </property>
+            <property name="text">
+             <string>Nbr_bidons</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_10">
+            <property name="styleSheet">
+             <string notr="true">font: 63 11pt &quot;Bahnschrift SemiBold&quot;;
+background-color: rgb(255, 255, 255);
+border:none;</string>
+            </property>
+            <property name="text">
+             <string>Nbr_sacs</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_5">
+          <item>
+           <widget class="QSpinBox" name="spinBox_2"/>
+          </item>
+          <item>
+           <widget class="QSpinBox" name="spinBox"/>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QWidget" name="widget_4" native="true">
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>100</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QWidget{
+
+background-color: rgb(255, 255, 255);}
+
+
+QPushButton{
+font: 63 11pt &quot;Bahnschrift SemiBold&quot;;
+text-align:center;
+	color: rgb(6, 6, 6);
+border-radius:15px;
+height:30px;
+	background-color: rgb(163, 221, 61);
+width:130px;
+
+
+
+}
+QPushButton:hover{
+border:2px solid;
+	border-color: rgb(32, 80, 10);
+
+	color: rgb(77, 77, 77);
+	
+}
+QPushButton:pressed{
+	
+	color: rgb(0, 0, 0);
+	background-color: rgb(33, 83, 10);
+
+
+}</string>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <item>
+       <spacer name="horizontalSpacer_2">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QPushButton" name="imprimer_btn">
+        <property name="text">
+         <string>Imprimer</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>../IMAGES/icones/impression.png</normaloff>../IMAGES/icones/impression.png</iconset>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="g_btn">
+        <property name="text">
+         <string>Générer</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>../IMAGES/icones/editer.png</normaloff>../IMAGES/icones/editer.png</iconset>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton">
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	
+background-color: rgb(192, 194, 232);
+color: rgb(11, 11, 11);
+
+
+}
+QPushButton:hover{
+border-color:rgb(111, 97, 188);
+}
+
+	
+
+
+QPushButton:pressed{
+background-color: rgb(111, 97, 188);
+
+}
+
+</string>
+        </property>
+        <property name="text">
+         <string>Annuler</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>../IMAGES/icones/croix-cercle.png</normaloff>../IMAGES/icones/croix-cercle.png</iconset>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>spinBox_2</sender>
+   <signal>textChanged(QString)</signal>
+   <receiver>le5</receiver>
+   <slot>setText(QString)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>639</x>
+     <y>437</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>501</x>
+     <y>176</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>spinBox</sender>
+   <signal>textChanged(QString)</signal>
+   <receiver>le4</receiver>
+   <slot>setText(QString)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>636</x>
+     <y>467</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>533</x>
+     <y>139</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>lineEdit</sender>
+   <signal>textChanged(QString)</signal>
+   <receiver>le7</receiver>
+   <slot>setText(QString)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>192</x>
+     <y>427</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>495</x>
+     <y>255</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>lineEdit_2</sender>
+   <signal>textChanged(QString)</signal>
+   <receiver>le8</receiver>
+   <slot>setText(QString)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>163</x>
+     <y>469</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>450</x>
+     <y>301</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>le8</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>592</x>
+     <y>521</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>542</x>
+     <y>304</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>le7</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>610</x>
+     <y>525</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>564</x>
+     <y>266</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>le5</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>624</x>
+     <y>525</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>546</x>
+     <y>186</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>le4</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>630</x>
+     <y>517</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>572</x>
+     <y>149</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>le10</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>621</x>
+     <y>520</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>459</x>
+     <y>383</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

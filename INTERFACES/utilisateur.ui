@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>730</width>
+    <height>475</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(214, 218, 203);</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="spacing">
+    <number>10</number>
+   </property>
+   <property name="bottomMargin">
+    <number>15</number>
+   </property>
+   <item>
+    <widget class="QWidget" name="widget" native="true">
+     <property name="styleSheet">
+      <string notr="true">
+border-radius:15px;</string>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QWidget" name="widget_3" native="true">
+        <property name="styleSheet">
+         <string notr="true">
+QWidget{
+
+background-color: rgb(255, 255, 255);}
+QLineEdit{
+height:25px;
+font: 63 10pt &quot;Bahnschrift SemiBold&quot;;
+border-bottom:2px solid #ac7e74;
+background-color: rgb(226, 231, 215);
+
+}
+
+
+
+</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <property name="spacing">
+          <number>16</number>
+         </property>
+         <property name="leftMargin">
+          <number>20</number>
+         </property>
+         <property name="rightMargin">
+          <number>20</number>
+         </property>
+         <property name="bottomMargin">
+          <number>40</number>
+         </property>
+         <item>
+          <widget class="QLabel" name="label">
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">color: rgb(79, 79, 79);
+font: 63 12pt &quot;Bahnschrift&quot;;
+padding:1px;
+
+
+</string>
+           </property>
+           <property name="text">
+            <string>Informations utilisateur</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="nom">
+           <property name="placeholderText">
+            <string>Nom</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="prenom">
+           <property name="placeholderText">
+            <string>Prénom</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="mdp">
+           <property name="placeholderText">
+            <string>Choisissez un mot de passe</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="mdpc">
+           <property name="placeholderText">
+            <string>Confirmez le mot de passe</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="verticalSpacer">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>40</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_3">
+           <item>
+            <widget class="QLabel" name="label_3">
+             <property name="styleSheet">
+              <string notr="true">color: rgb(79, 79, 79);
+font: 63 12pt &quot;Bahnschrift semibold&quot;;
+padding:1px;
+
+
+</string>
+             </property>
+             <property name="text">
+              <string>Role</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QComboBox" name="role_box">
+             <property name="styleSheet">
+              <string notr="true">
+height:24.5px;
+font: 63 11pt &quot;Bahnschrift SemiBold&quot;;
+border:2px solid;
+border-radius:5px;
+padding:2px;</string>
+             </property>
+             <item>
+              <property name="text">
+               <string>Réceptionniste</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Caissier</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Responsable logistique</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <widget class="QPushButton" name="annuler_btn_2">
+           <property name="styleSheet">
+            <string notr="true">QWidget{
+	background-color: rgb(255, 255, 255);
+border-radius:15px;
+
+}
+QPushButton{
+font: 63 11pt &quot;Bahnschrift SemiBold&quot;;
+text-align:center;
+	color: rgb(6, 6, 6);
+border-radius:15px;
+height:30px;
+	background-color: rgb(163, 221, 61);
+width:130px;
+
+
+
+}
+QPushButton:hover{
+border:2px solid;
+	border-color: rgb(32, 80, 10);
+
+	color: rgb(77, 77, 77);
+	
+}
+QPushButton:pressed{
+	
+	color: rgb(0, 0, 0);
+	background-color: rgb(33, 83, 10);
+
+
+}</string>
+           </property>
+           <property name="text">
+            <string>Annuler</string>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>../IMAGES/icones/croix-cercle.png</normaloff>../IMAGES/icones/croix-cercle.png</iconset>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QWidget" name="widget_4" native="true">
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);
+</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_3">
+         <property name="spacing">
+          <number>15</number>
+         </property>
+         <item>
+          <widget class="QLabel" name="label_2">
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">color: rgb(79, 79, 79);
+font: 63 12pt &quot;Bahnschrift&quot;;
+
+
+</string>
+           </property>
+           <property name="text">
+            <string>Liste d'utilisateurs</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QListWidget" name="user_list_widget">
+           <item>
+            <property name="text">
+             <string/>
+            </property>
+           </item>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QWidget" name="widget_2" native="true">
+     <property name="styleSheet">
+      <string notr="true">QWidget{
+	background-color: rgb(255, 255, 255);
+border-radius:15px;
+
+}
+QPushButton{
+font: 63 11pt &quot;Bahnschrift SemiBold&quot;;
+text-align:center;
+	color: rgb(6, 6, 6);
+border-radius:15px;
+height:30px;
+	background-color: rgb(163, 221, 61);
+width:130px;
+
+
+
+}
+QPushButton:hover{
+border:2px solid;
+	border-color: rgb(32, 80, 10);
+
+	color: rgb(77, 77, 77);
+	
+}
+QPushButton:pressed{
+	
+	color: rgb(0, 0, 0);
+	background-color: rgb(33, 83, 10);
+
+
+}</string>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <property name="spacing">
+       <number>30</number>
+      </property>
+      <property name="leftMargin">
+       <number>30</number>
+      </property>
+      <property name="rightMargin">
+       <number>30</number>
+      </property>
+      <item>
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QPushButton" name="ajouterButton">
+        <property name="text">
+         <string>Ajouter</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>../IMAGES/icones/plus.png</normaloff>../IMAGES/icones/plus.png</iconset>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="supprimerButton">
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	
+background-color: rgb(192, 194, 232);
+color: rgb(11, 11, 11);
+
+
+}
+QPushButton:hover{
+border-color:rgb(111, 97, 188);
+}
+
+	
+
+
+QPushButton:pressed{
+background-color: rgb(111, 97, 188);
+
+}
+
+</string>
+        </property>
+        <property name="text">
+         <string>Supprimer</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>../IMAGES/icones/poubelle.png</normaloff>../IMAGES/icones/poubelle.png</iconset>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>supprimerButton</sender>
+   <signal>clicked()</signal>
+   <receiver>mdpc</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>538</x>
+     <y>405</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>241</x>
+     <y>198</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>supprimerButton</sender>
+   <signal>clicked()</signal>
+   <receiver>mdp</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>565</x>
+     <y>406</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>244</x>
+     <y>162</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>supprimerButton</sender>
+   <signal>clicked()</signal>
+   <receiver>prenom</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>581</x>
+     <y>409</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>253</x>
+     <y>123</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>supprimerButton</sender>
+   <signal>clicked()</signal>
+   <receiver>nom</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>577</x>
+     <y>400</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>238</x>
+     <y>70</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
