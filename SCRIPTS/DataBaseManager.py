@@ -12,9 +12,9 @@ class DataBaseManager:
         # etablir la connexion a la bdd
         try:
             self.conn = mysql.connector.connect(
-                host="localhost",
-                user="admin",
-                password="CORE66@@BEN@@_pedro",
+                host="", #choisir
+                user="", #choisir
+                password="", #choisir
                 database="huilerie",
                 auth_plugin='mysql_native_password'  # Spécifier le plugin d'authentification 
 
